@@ -5,9 +5,7 @@
 ### **"Django 기반 온라인 학습관리시스템(Learning Management System)"**
 
 
-**🏫 University Team Project (6 Members)**
-
-📅 **Development Period** : 2024.xx ~ 2024.xx
+📅 **Development Period** : 2025.09 ~ 2025.12 (3달)
 
 🎥 **Live Demo** : (YouTube 링크)
 
@@ -19,7 +17,7 @@
 
 Django를 활용하여 개발한 **Learning Management System(LMS)** 입니다.
 
-학생과 교수 간의 온라인 학습 환경을 지원하기 위해 **사용자 관리, 강의 관리, 게시판** 기능을 구현했으며, 관계형 데이터베이스를 기반으로 데이터를 관리하도록 설계했습니다.
+* 배경 : 본 프로젝트는 데이터베이스 전공 수업의 팀 프로젝트로 진행되었습니다. DORO의 요구사항을 바탕으로 온라인 학습관리시스템(LMS)을 설계하고 구현하며, 데이터베이스 설계와 웹 애플리케이션 개발 과정을 경험하는 것을 목표로 했습니다.
 
 ---
 

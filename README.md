@@ -1,159 +1,147 @@
-# DORO LMS (DBProject)
+<div align="center">
 
-DORO LMS 는 Django 기반의 대학/학원용 학습 관리 시스템(LMS)입니다.  
-학생, 강사, 관리자가 각각의 역할에 따라 강의와 과제를 관리하고, DIMC 진단 결과를 아카이브할 수 있도록 설계되었습니다.
+# 🎓 Django Learning Management System
 
----
+### **"Django 기반 온라인 학습관리시스템(Learning Management System)"**
 
-## 1. 주요 기능
 
-### 사용자 및 권한
-- 이메일 기반 회원가입 및 로그인
-- 역할별 권한 분리: 학생, 강사, 관리자
-- 마이페이지에서 개인정보 조회/수정, DIMC 기록 확인
+**🏫 University Team Project (6 Members)**
 
-### 강의/수강 관리
-- 강사의 강의 개설 및 편집
-- 수강 신청, 수강 기간·요일·시간 관리
-- “내 강의실”에서 현재 수강 중인 강의만 표시
+📅 **Development Period** : 2024.xx ~ 2024.xx
 
-### 주차별 자료
-- 강의별 주차(week) 단위 자료 등록
-- 파일 자료(PDF 등) 및 동영상 링크 업로드
-- 학생은 주차 카드를 눌러 상세 자료 페이지에서 내용 확인
+🎥 **Live Demo** : (YouTube 링크)
 
-### 과제 및 제출
-- 강사가 과제 등록/수정, 배점·마감일 설정
-- 학생은 텍스트/파일(PDF 등)로 과제 제출 및 재제출
-- 강사용 제출물 목록, 점수/피드백 입력, 채점 결과 관리
-
-### DIMC 진단 아카이브
-- D/I/M/C 점수 및 결과 텍스트 입력
-- 검사지를 파일(PDF/JPG/PNG)로 업로드
-- 업로드 내역 목록에서 날짜·점수·결과 요약·파일 링크 확인
-
-### 캘린더
-- 수강 중인 강의의 요일/기간 정보를 기반으로 달력 표시
-- 특정 월에서 각 날짜별 수업 정보를 한눈에 확인
+</div>
 
 ---
 
-## 2. 개발 환경
+# 📌 프로젝트 개요
 
-- Python 3.11
-- Django 4.2
-- PostgreSQL
-- HTML5, CSS3, JavaScript
-- Bootstrap + 커스텀 CSS
-- django-extensions (ERD 생성용, 선택)
+Django를 활용하여 개발한 **Learning Management System(LMS)** 입니다.
+
+학생과 교수 간의 온라인 학습 환경을 지원하기 위해 **사용자 관리, 강의 관리, 게시판** 기능을 구현했으며, 관계형 데이터베이스를 기반으로 데이터를 관리하도록 설계했습니다.
 
 ---
 
-## 3. 프로젝트 구조
+# 👨‍💻 팀 구성
 
-(일부 핵심 디렉터리만 발췌)
-
-DBProject/
-├─ manage.py
-├─ dbproject/ # Django 프로젝트 설정
-├─ classroom/ # 강의/과제/캘린더 앱
-│ ├─ models.py # Course, Enrollment, Assignment, Submission, WeeklyContent 등
-│ ├─ views.py
-│ └─ templates/classroom/
-├─ user/ # 회원/마이페이지/DIMC 앱
-│ ├─ models.py # User, DIMC 등
-│ ├─ views.py
-│ └─ templates/user/
-├─ templates/ # 공통 base.html 및 페이지 템플릿
-└─ static/ # 공통 CSS/JS/이미지
-
-
+* 이성재(팀장) : UI/UX 디자인
+* 김형준 : 프론트엔드
+* 윤세훈 : 프론트엔드
+* 권오준 : 로그인/회원가입/비밀번호 재설정 기능 개발, 강의실 및 공통 기능 개발
+* 김민규 : 게시판 기능 개발, ERD 설계, DB 모델 설계 및 초기 구축
+* 홍정표 : FAQ 기능 개발
 
 ---
 
-## 4. 설치 및 실행 방법
+# ✨ 주요 기능
 
-### 4.1 리포지토리 클론
+### 👤 User
 
-git clone https://github.com/ohjun2001-netizen/db.git
-cd db/DBProject # manage.py 가 있는 폴더로 이동
+* 회원가입 및 로그인
+* 사용자 권한 관리
 
+### 📚 Course
 
-### 4.2 가상환경 설정 (선택)
+* 강의 생성 및 조회
+* 강의실(Classroom) 관리
 
-python -m venv venv
-venv\Scripts\activate
+### 📝 Board
 
+* 게시글 작성
+* 게시글 수정 및 삭제
+* 댓글 기능
 
-### 4.3 패키지 설치
+### 📂 Support
+
+* 공지사항
+* 학습 자료 공유
+
+---
+
+# 🛠 Tech Stack
+
+| Category      | Technology                       |
+| ------------- | -------------------------------- |
+| Language      | Python                           |
+| Backend       | Django                           |
+| Database      | MySQL                            |
+| Frontend      | HTML, CSS, Bootstrap, JavaScript |
+| Collaboration | Git, GitHub                      |
+
+---
+
+# 🏗️ System Architecture
+
+(Architecture Diagram)
+
+---
+
+# 🗄️ Database ERD
+
+(ERD Image)
+
+---
+
+# 💾 Database Design
+
+관계형 데이터베이스를 기반으로 사용자와 강의, 게시판 간의 관계를 설계했습니다.
+
+* Django ORM을 활용한 데이터 모델링
+* Foreign Key 기반 엔티티 관계 설계
+* 관계형 데이터베이스 기반 CRUD 구현
+* 사용자 권한에 따른 데이터 접근 제어
+
+---
+
+# 📂 Project Structure
+
+```text
+django-lms
+├── board/
+├── classroom/
+├── course/
+├── support/
+├── user/
+├── templates/
+├── static/
+└── manage.py
+```
+
+---
+
+# 🚀 Getting Started
+
+```bash
+git clone https://github.com/dataoreo/django-lms.git
+
+cd django-lms
 
 pip install -r requirements.txt
 
-### 4.4 이메일 인증 사용 방법
-manage.py와 같은 위치에 ngrok.exe 설치
-
-    ngrok config add-authtoken '본인 토큰'
-    ngrok http 8080 << python manage.py runserver와 동시에 실행 
-
-
-아래 코드에 본인 정보 채워넣기
-
-    ALLOWED_HOSTS = [
-        'localhost',
-        '127.0.0.1',
-        '',  # ngrok 도메인 추가
-    ]
-
-    SITE_DOMAIN = '' # ngrok 도메인 추가
-
-    CSRF_TRUSTED_ORIGINS = [''] # ngrok 도메인 추가
-
-    EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-    EMAIL_HOST = 'smtp.gmail.com'
-    EMAIL_PORT = 587
-    EMAIL_USE_TLS = True
-    EMAIL_HOST_USER = '' # Gmail 아이디
-    EMAIL_HOST_PASSWORD = ''  # Gmail 앱 비밀번호
-    DEFAULT_FROM_EMAIL = ''
-
-### 4.5 마이그레이션 및 서버 실행
-
 python manage.py migrate
+
 python manage.py runserver
-
-
-
-브라우저에서 `http://127.0.0.1:8000/` 로 접속하면 메인 페이지에 접근할 수 있습니다.
+```
 
 ---
 
-## 5. 주요 URL 개요
+# 📸 Demo
 
-- `/` : 메인 홈 (최신 강의, 공지 등)
-- `/user/login/` : 로그인
-- `/user/signup/` : 회원가입
-- `/user/mypage/` : 마이페이지
-- `/classroom/` : 내 강의실/강의 목록
-- `/classroom/course/<course_id>/` : 강의실 상세
-- `/classroom/assignment/<assignment_id>/` : 과제 상세
-- `/classroom/assignment/<assignment_id>/submit/` : 학생 과제 제출
-- `/user/DIMC_archive/` : DIMC 결과지 업로드
-- `/user/dimc/results/` : DIMC 업로드 내역
+| Login | Course |
+| ----- | ------ |
+| 이미지   | 이미지    |
 
-(실제 URL 이름은 `urls.py` 설정에 따라 약간 다를 수 있습니다.)
+| Board | Classroom |
+| ----- | --------- |
+| 이미지   | 이미지       |
 
 ---
 
-## 6. ERD (선택)
+# 📚 What I Learned
 
-`django-extensions` 와 Graphviz 를 설치한 뒤 아래 명령으로 ERD 이미지를 생성할 수 있습니다.[web:219][web:224]
-
-
-생성된 `erd.png` 파일은 `DBProject` 폴더에 저장되며, 전체 모델 간 관계를 한눈에 볼 수 있습니다.
-python manage.py graph_models -a -o erd.png
----
-
-## 7. 라이선스 및 사용 목적
-
-이 프로젝트는 개인/학습용으로 제작되었으며, 상업적 사용 전에는 별도의 검토가 필요합니다.  
-코드와 구조는 Django 학습 및 LMS 설계 참고용으로 자유롭게 열람할 수 있습니다.
+* Django MTV 아키텍처 기반 웹 애플리케이션 개발 경험
+* Django ORM을 활용한 관계형 데이터베이스 설계 및 CRUD 구현
+* Git을 활용한 협업과 브랜치 관리 경험
+* 사용자 권한을 고려한 백엔드 기능 설계
+* 팀 프로젝트를 통한 협업 및 문제 해결 경험

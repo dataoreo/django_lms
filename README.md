@@ -34,31 +34,47 @@ Django를 활용하여 개발한 **Learning Management System(LMS)** 입니다.
 
 ### 👤 User
 
-* 회원가입 및 이메일 인증
-<img width="1157" height="464" alt="중복확인" src="https://github.com/user-attachments/assets/fe1fd4f1-639c-4bae-a44d-80d78e6a4099" />
-<img width="1412" height="1042" alt="회원가입 및 이메일 인증" src="https://github.com/user-attachments/assets/41aa01a5-da7a-4d38-bc2c-b8423c9d5313" />
+* 회원가입 중복확인
+<img width="900" height="400" alt="중복확인" src="https://github.com/user-attachments/assets/fe1fd4f1-639c-4bae-a44d-80d78e6a4099" />
+
+
+* 이메일 인증
+<img width="600" height="500" alt="회원가입 및 이메일 인증" src="https://github.com/user-attachments/assets/41aa01a5-da7a-4d38-bc2c-b8423c9d5313" />
 
 * 아이디 비밀번호 찾기
 <img width="577" height="501" alt="아이디 찾기" src="https://github.com/user-attachments/assets/c29195d9-68c9-47e1-8a85-4d69f9d47223" />
 <img width="757" height="614" alt="비밀번호 재설정 및 로그인" src="https://github.com/user-attachments/assets/2d2bdad3-e55b-4876-8bcc-04585e16e6fd" />
 
-* 사용자 권한 관리
+<br>
 
 ### 📚 Course
 
 * 강의 생성 및 조회
-* 강의실(Classroom) 관리
+<img width="1300" height="634" alt="강의 등록" src="https://github.com/user-attachments/assets/55351d27-993d-4d6e-9d60-e183519b49e0" />
 
+* 강의 신청
+  <img width="1338" height="652" alt="강의신청" src="https://github.com/user-attachments/assets/fd6a9294-33dd-4b91-bc6d-8052c8f65407" />
+  <img width="372" height="92" alt="image" src="https://github.com/user-attachments/assets/d271b121-f728-45b3-a918-b522cc2899a2" /> 중복 일정일 경우 강의 신청이 불가능합니다.
+
+* 학습 자료 업로드
+  <img width="1338" height="652" alt="자료 관리" src="https://github.com/user-attachments/assets/526d2adc-d412-4c55-a86c-936529be2a54" />
+
+* 강의 질문 게시판
+  
 ### 📝 Board
 
+* 공지사항
 * 게시글 작성
 * 게시글 수정 및 삭제
 * 댓글 기능
 
 ### 📂 Support
 
-* 공지사항
-* 학습 자료 공유
+* FAQ 챗봇
+<img width="793" height="758" alt="FAQ" src="https://github.com/user-attachments/assets/763d124e-c143-4a69-b2e7-d58a73603a85" />
+
+* FAQ 질문 관리
+<img width="1448" height="758" alt="FAQ 질문 관리" src="https://github.com/user-attachments/assets/2824cdda-6cb2-4cac-8352-a9260c54ba4d" />
 
 ---
 

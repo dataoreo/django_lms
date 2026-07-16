@@ -1,4 +1,4 @@
-<div align="center">
+<img width="1338" height="652" alt="댓글" src="https://github.com/user-attachments/assets/b482cf91-0187-47c4-b941-9c7e641dacb6" /><div align="center">
 
 # 🎓 Django Learning Management System
 
@@ -60,13 +60,25 @@ Django를 활용하여 개발한 **Learning Management System(LMS)** 입니다.
   <img width="1338" height="652" alt="자료 관리" src="https://github.com/user-attachments/assets/526d2adc-d412-4c55-a86c-936529be2a54" />
 
 * 강의 질문 게시판
-  
+  <img width="1338" height="652" alt="강의실 질문 게시판" src="https://github.com/user-attachments/assets/8fb8c4b1-bc10-41e5-b8f1-049d3eb2726d" />
+
+* 과제 제출 및 피드백
+  <img width="1338" height="652" alt="과제 제출 및 피드백" src="https://github.com/user-attachments/assets/dd660671-8a0a-4bcb-ac6b-9d70c7500645" />
+
 ### 📝 Board
 
 * 공지사항
+  <img width="1338" height="652" alt="공지사항" src="https://github.com/user-attachments/assets/1858d612-1f03-46b3-9e81-145f5a3bf89a" />
+
 * 게시글 작성
+  <img width="1338" height="652" alt="게시판" src="https://github.com/user-attachments/assets/14edd6f9-7709-4e22-8f9c-cb58f4f29ac8" />
+
 * 게시글 수정 및 삭제
+ <img width="1338" height="652" alt="게시글 수정 삭제" src="https://github.com/user-attachments/assets/c7f50e8f-6a46-4491-8bca-553f085d5ffa" />
+  
 * 댓글 기능
+  <img width="1338" height="652" alt="댓글" src="https://github.com/user-attachments/assets/c0cf5785-ce73-4ca6-9625-7b8fc9a768ce" />
+  댓글 삭제 로직 : 대댓글이 달린 본댓글이 삭제될 시 "삭제된 댓글입니다." 표시, 대댓글도 삭제될 시 완전 삭제
 
 ### 📂 Support
 
@@ -75,6 +87,7 @@ Django를 활용하여 개발한 **Learning Management System(LMS)** 입니다.
 
 * FAQ 질문 관리
 <img width="1448" height="758" alt="FAQ 질문 관리" src="https://github.com/user-attachments/assets/2824cdda-6cb2-4cac-8352-a9260c54ba4d" />
+Django 어드민에서 질문 관리 가능
 
 ---
 
@@ -84,7 +97,7 @@ Django를 활용하여 개발한 **Learning Management System(LMS)** 입니다.
 | ------------- | -------------------------------- |
 | Language      | Python                           |
 | Backend       | Django                           |
-| Database      | MySQL                            |
+| Database      | PostgreSQL                       |
 | Frontend      | HTML, CSS, Bootstrap, JavaScript |
 | Collaboration | Git, GitHub                      |
 
@@ -98,18 +111,7 @@ Django를 활용하여 개발한 **Learning Management System(LMS)** 입니다.
 
 # 🗄️ Database ERD
 
-(ERD Image)
-
----
-
-# 💾 Database Design
-
-관계형 데이터베이스를 기반으로 사용자와 강의, 게시판 간의 관계를 설계했습니다.
-
-* Django ORM을 활용한 데이터 모델링
-* Foreign Key 기반 엔티티 관계 설계
-* 관계형 데이터베이스 기반 CRUD 구현
-* 사용자 권한에 따른 데이터 접근 제어
+<img width="2000" height="2100" alt="Untitled (3)" src="https://github.com/user-attachments/assets/3e0244eb-3487-4333-9be6-cc79045712f4" />
 
 ---
 
@@ -145,22 +147,3 @@ python manage.py runserver
 
 ---
 
-# 📸 Demo
-
-| Login | Course |
-| ----- | ------ |
-| 이미지   | 이미지    |
-
-| Board | Classroom |
-| ----- | --------- |
-| 이미지   | 이미지       |
-
----
-
-# 📚 What I Learned
-
-* Django MTV 아키텍처 기반 웹 애플리케이션 개발 경험
-* Django ORM을 활용한 관계형 데이터베이스 설계 및 CRUD 구현
-* Git을 활용한 협업과 브랜치 관리 경험
-* 사용자 권한을 고려한 백엔드 기능 설계
-* 팀 프로젝트를 통한 협업 및 문제 해결 경험

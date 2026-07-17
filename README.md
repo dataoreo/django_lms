@@ -97,13 +97,13 @@ Django 어드민에서 질문 관리 가능
 | Backend       | Django                           |
 | Database      | PostgreSQL                       |
 | Frontend      | HTML, CSS, Bootstrap, JavaScript |
-| Collaboration | Git, GitHub                      |
+| Collaboration | Git, GitHub, Gemini              |
 
 ---
 
 # 🏗️ System Architecture
 
-(Architecture Diagram)
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ab89a396-43a9-41bd-a2cf-d6a960cd1eec" />
 
 ---
 

@@ -33,13 +33,12 @@ Django를 활용하여 개발한 **Learning Management System(LMS)** 입니다.
 ### 👤 User
 
 * 회원가입 중복확인
-  <img width="900" height="400" alt="중복확인" src="https://github.com/user-attachments/assets/fe1fd4f1-639c-4bae-a44d-80d78e6a4099" />
+  <img width="900" height="400" alt="중복확인" src="https://github.com/user-attachments/assets/fe1fd4f1-639c-4bae-a44d-80d78e6a4099" /><br>
 
+* 이메일 인증<br>
+  <img width="600" height="500" alt="회원가입 및 이메일 인증" src="https://github.com/user-attachments/assets/41aa01a5-da7a-4d38-bc2c-b8423c9d5313" /><br>
 
-* 이메일 인증
-  <img width="600" height="500" alt="회원가입 및 이메일 인증" src="https://github.com/user-attachments/assets/41aa01a5-da7a-4d38-bc2c-b8423c9d5313" />
-
-* 아이디 비밀번호 찾기
+* 아이디 비밀번호 찾기<br>
   <img width="577" height="501" alt="아이디 찾기" src="https://github.com/user-attachments/assets/c29195d9-68c9-47e1-8a85-4d69f9d47223" />
   <img width="757" height="614" alt="비밀번호 재설정 및 로그인" src="https://github.com/user-attachments/assets/2d2bdad3-e55b-4876-8bcc-04585e16e6fd" />
 

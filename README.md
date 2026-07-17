@@ -1,5 +1,3 @@
-<img width="1338" height="652" alt="댓글" src="https://github.com/user-attachments/assets/b482cf91-0187-47c4-b941-9c7e641dacb6" /><div align="center">
-
 # 🎓 Django Learning Management System
 
 ### **"Django 기반 온라인 학습관리시스템(Learning Management System)"**
@@ -35,22 +33,22 @@ Django를 활용하여 개발한 **Learning Management System(LMS)** 입니다.
 ### 👤 User
 
 * 회원가입 중복확인
-<img width="900" height="400" alt="중복확인" src="https://github.com/user-attachments/assets/fe1fd4f1-639c-4bae-a44d-80d78e6a4099" />
+  <img width="900" height="400" alt="중복확인" src="https://github.com/user-attachments/assets/fe1fd4f1-639c-4bae-a44d-80d78e6a4099" />
 
 
 * 이메일 인증
-<img width="600" height="500" alt="회원가입 및 이메일 인증" src="https://github.com/user-attachments/assets/41aa01a5-da7a-4d38-bc2c-b8423c9d5313" />
+  <img width="600" height="500" alt="회원가입 및 이메일 인증" src="https://github.com/user-attachments/assets/41aa01a5-da7a-4d38-bc2c-b8423c9d5313" />
 
 * 아이디 비밀번호 찾기
-<img width="577" height="501" alt="아이디 찾기" src="https://github.com/user-attachments/assets/c29195d9-68c9-47e1-8a85-4d69f9d47223" />
-<img width="757" height="614" alt="비밀번호 재설정 및 로그인" src="https://github.com/user-attachments/assets/2d2bdad3-e55b-4876-8bcc-04585e16e6fd" />
+  <img width="577" height="501" alt="아이디 찾기" src="https://github.com/user-attachments/assets/c29195d9-68c9-47e1-8a85-4d69f9d47223" />
+  <img width="757" height="614" alt="비밀번호 재설정 및 로그인" src="https://github.com/user-attachments/assets/2d2bdad3-e55b-4876-8bcc-04585e16e6fd" />
 
 <br>
 
 ### 📚 Course
 
 * 강의 생성 및 조회
-<img width="1300" height="634" alt="강의 등록" src="https://github.com/user-attachments/assets/55351d27-993d-4d6e-9d60-e183519b49e0" />
+  <img width="1300" height="634" alt="강의 등록" src="https://github.com/user-attachments/assets/55351d27-993d-4d6e-9d60-e183519b49e0" />
 
 * 강의 신청
   <img width="1338" height="652" alt="강의신청" src="https://github.com/user-attachments/assets/fd6a9294-33dd-4b91-bc6d-8052c8f65407" />
